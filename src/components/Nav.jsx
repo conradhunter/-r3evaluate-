@@ -40,6 +40,9 @@ function Nav() {
           </Link>
         </li>
       </ul>
+
+    {/* Add container for profile and cart icons */}
+
     </nav>
   );
 }
