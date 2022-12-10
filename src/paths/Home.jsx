@@ -11,7 +11,7 @@ function Home() {
             <Link to="/" className="">
               <h3 className="text-4xl text-center mb-8 font-bold">{collection.title}</h3>
             </Link>
-            <div className="flex justify-evenly w-2/3 mx-auto">
+            <div className="flex justify-evenly w-2/3 mx-auto gap-6">
               {collections[i].products.map((product, i) => {
                 return (
                   <div key={i}>

@@ -2,7 +2,10 @@ import React from 'react'
 
 function Media() {
   return (
-    <div>Media</div>
+    <div>
+      Instagram Embed package
+      (npm i react-instagram-embed)
+    </div>
   )
 }
 
