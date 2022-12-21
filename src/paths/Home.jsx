@@ -8,7 +8,7 @@ function Home() {
       {collections.map((collection, i) => {
         return (
           <section key={i} className="mb-10">
-            <Link to="/" className="">
+            <Link to={`/collection/${collection.id}`} className="">
               <h3 className="text-4xl text-center mb-8 font-bold">{collection.title}</h3>
             </Link>
             <div className="flex justify-evenly w-2/3 mx-auto gap-6">
