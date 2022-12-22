@@ -2,10 +2,10 @@ import React from "react";
 import { collections } from "../data/collections";
 
 function Collection() {
-  return (
-    <div className="mt-16">
-      {/* Return data of the collection which was clicked */}
 
+  return (
+    <div className="my-16">
+      {/* Return data of the collection which was clicked */}
       <h3 className="text-4xl text-center mb-8 font-bold">{collections[0].title}</h3>
       <div className="flex justify-evenly w-2/3 mx-auto gap-6">
         {collections[0].products.map((product, i) => {

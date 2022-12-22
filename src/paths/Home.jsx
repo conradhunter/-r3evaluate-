@@ -4,11 +4,11 @@ import { collections } from "../data/collections";
 
 function Home() {
   return (
-    <div className="mt-16">
+    <div className="my-16">
       {collections.map((collection, i) => {
         return (
           <section key={i} className="mb-10">
-            <Link to={`/collection/${collection.id}`} className="">
+            <Link to={`/collections/${collection.id}`} className="">
               <h3 className="text-4xl text-center mb-8 font-bold">{collection.title}</h3>
             </Link>
             <div className="flex justify-evenly w-2/3 mx-auto gap-6">
